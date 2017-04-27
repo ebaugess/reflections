@@ -1,1 +1,3 @@
 In order to create a git repository you need to create a .git file to track changes.
+
+The staging area is a theoretical area that stores the names of files that will be commited,but does not keep actual files. The staging area allows multiple files to be committed at once.
