@@ -1,0 +1,1 @@
+In order to create a git repository you need to create a .git file to track changes.
