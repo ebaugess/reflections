@@ -1,3 +1,13 @@
 In order to create a git repository you need to create a .git file to track changes.
 
 The staging area is a theoretical area that stores the names of files that will be commited,but does not keep actual files. The staging area allows multiple files to be committed at once.
+
+Use the staging area to do one logical change per commit by only committing individual files from a specific change in a specific commit.
+
+being able to create a branch allows a user to make code changes to that individual branch without changing the main code.  This will allow for experiments with code that may or may not be integrated into production code.
+
+Diagrams help me visualize the branch structure by allowing me to understand which commits can be reached from a different commit.
+
+Merging two branches together puts the code from the two branches into one branch.
+
+The advantage to automatic merging is it allows to branches to be automatically merged in exactly the correct spot.  The disadvantage of automatic merging is that it does not review the substance of the code to verify no bugs are added by the merge.
