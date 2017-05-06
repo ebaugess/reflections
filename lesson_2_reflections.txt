@@ -11,3 +11,6 @@ Diagrams help me visualize the branch structure by allowing me to understand whi
 Merging two branches together puts the code from the two branches into one branch.
 
 The advantage to automatic merging is it allows to branches to be automatically merged in exactly the correct spot.  The disadvantage of automatic merging is that it does not review the substance of the code to verify no bugs are added by the merge.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+--You do not want update your local repository if a user makes changes you do not want to use.
